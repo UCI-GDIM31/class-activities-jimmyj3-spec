@@ -4,7 +4,7 @@
 Hello World!
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+I don't know....
 
 ## Open-Source Assets
 ### W1
