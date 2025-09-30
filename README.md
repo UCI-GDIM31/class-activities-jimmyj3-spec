@@ -4,7 +4,7 @@
 Hello World!
 
 ### W2
-I don't know....
+This is the Devlog of the in class activity 1. Very complicated by connecting different pieces together and always remember to save and commit to the github. It takes long time to go through them and figure out problems but after that, I should be more skillful for doing this.
 
 ## Open-Source Assets
 ### W1
