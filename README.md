@@ -1,10 +1,8 @@
-# in-class-activities
+# in-class-activities & Minigame 1
 ## Devlogs
 ### W1
-Hello World!
+Metaphor: Shopping in a mall. The whole process is like exploring new things within Unity. When I saw some interesting tools, I would try them just like I walk into stores in the mall. But I still follow the direction as the guideline tells. But eventually, I will find out what I need to add on and run the game successfully.
 
-### W2
-This is the Devlog of the in class activity 1. Very complicated by connecting different pieces together and always remember to save and commit to the github. It takes long time to go through them and figure out problems but after that, I should be more skillful for doing this.
 
 ## Open-Source Assets
 ### W1
