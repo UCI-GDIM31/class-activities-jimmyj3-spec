@@ -8,6 +8,15 @@ Metaphor: Shopping in a mall. The whole process is like exploring new things wit
 2. The _bounce is an integer because the amount of ball bouncing cannot be used as a float, string, or bool.
 3. Some of the errors are missing a semicolon, and some of them are missing "f" behind the float.
 
+### W3
+Table 1: The input will be players who hit the beat, and the output will be the feedback music after hitting. I would like to set the input(player's hit) to be a boolean value, and the initial value is false. It changes to true whenever it gets hit, and the corresponding beat can play as output. After this process, the value of it will always default to false.
+
+
+MonoBehaviour coding activity: the relationship between classes and components is more likely a show. The classes describe what components can do and how component play their role as being set. Method and member variable can be considered as a food bowl. The member variables are different sides, meat, and rice in the bowl. The method is calling each side and adding them together, and produces a finished bowl.
+
+
+The ball becomes brighter every time it collides. When it collides, the function will be called and update the color of the ball. And the scene will show the updated color.
+
 
 ## Open-Source Assets
 ### W1
