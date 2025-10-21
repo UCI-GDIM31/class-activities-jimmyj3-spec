@@ -18,6 +18,15 @@ MonoBehaviour coding activity: the relationship between classes and components i
 The ball becomes brighter every time it collides. When it collides, the function will be called and update the color of the ball. And the scene will show the updated color.
 
 
+### W4
+Table 1: The line 5 of the file, a variable is declared and the member variable is 1.0f. It defines an initial value so the program can apply it and update it if it is necessary. The line 22 of the file, variable translation is a float. The line should execute this: when players press "w" or "s", they are entering an input as a vertical direction, so the cat in the scene will move forward/backward as the speed it has been setting. The line 25 of the file, Translate is the method and be called. It also applies a translation variable in the (), which means that the game object will move a certain distance.
+
+The goal should have a IsTrigger because it needs to detect whenever the ball is goaled or not; the soccer ball and cat should have rigidbody. 
+My game is not prefect. I try to make the cat not floating in the air, but I could not figure it out still. And I need to fix the rigidbody to make it stands on the ground. 
+
+
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
