@@ -25,6 +25,11 @@ The goal should have a IsTrigger because it needs to detect whenever the ball is
 My game is not prefect. I try to make the cat not floating in the air, but I could not figure it out still. And I need to fix the rigidbody to make it stands on the ground. 
 
 
+### W5
+1. I don't have questions for activity 1.
+2. Plan of structure the DeerW5 Class: Firstly, I know that the deer will walk toward the target(red mushroom), and the member variable is _target. So we need NavMeshAgent as a target that allows us to attach in Unity, and what I do is  _agent = GetComponent<NavMeshAgent>(). I also make a function called start(), and it tells the deer to start walking once the game starts.
+
+
 
 
 ## Open-Source Assets

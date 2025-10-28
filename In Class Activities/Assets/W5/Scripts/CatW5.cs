@@ -43,7 +43,17 @@ public class CatW5 : MonoBehaviour
         //
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
-        Vector3 translation = Vector3.zero;
+        float ws = Input.GetAxis("Vertical");
+
+        if (_flipWSControls)
+        {
+            ws = -ws;
+        }
+
+        Vector3 translation = Vector3.forward * ws;
+
+        transform.Translate(translation * _moveSpeed * Time.deltaTime, Space.Self);
+
         
 
 
