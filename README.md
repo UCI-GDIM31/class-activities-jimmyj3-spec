@@ -30,6 +30,30 @@ My game is not prefect. I try to make the cat not floating in the air, but I cou
 2. Plan of structure the DeerW5 Class: Firstly, I know that the deer will walk toward the target(red mushroom), and the member variable is _target. So we need NavMeshAgent as a target that allows us to attach in Unity, and what I do is  _agent = GetComponent<NavMeshAgent>(). I also make a function called start(), and it tells the deer to start walking once the game starts.
 
 
+### W6
+1. [Vectors/vector math
+How to use with a transform
+Magnitude and Direction
+Vector addition
+Vector*scaler multiplication
+Shortcuts:
+=+
+=-
+=*
+Different types of numbers: integers and floats
+Game object speed
+Game object distance
+Game object size
+Color setting with numbers
+Comparing numerical variables
+Using equations to update variables
+C# Math class 📏
+Week 2 Slides: https://canvas.eee.uci.edu/courses/77004/files/32699094?module_item_id=3456099
+Week 5 Slides: 
+https://canvas.eee.uci.edu/courses/77004/files/32983209?module_item_id=3472865](https://docs.google.com/document/d/1_oQY0junK3b37PITxN8uItEEPKJGHvci47NArvtUxiQ/edit?tab=t.0)
+
+2. Notes before coding: After playing the finished program and plain program, I believe the cat object is already be set and all we need to is coding for bats. I noticed that we have two file for bats. I think I will do most of the coding in BatManager and attach it later in the BatW6. 
+
 
 
 ## Open-Source Assets
