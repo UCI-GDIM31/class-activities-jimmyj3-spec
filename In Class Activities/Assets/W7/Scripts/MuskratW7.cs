@@ -75,6 +75,11 @@ public class MuskratW7 : MonoBehaviour
         //      bubble.
 
 
+        bool isMoving = Mathf.Abs(leftright) > 0.1f || Mathf.Abs(forward) > 0.1f;
+
+        _animator.SetBool("running", isMoving);
+        _animator.SetBool("flying", false);
+
         // STEP 5 -------------------------------------------------------------
     }
 
@@ -120,7 +125,14 @@ public class MuskratW7 : MonoBehaviour
         // You may also find the absolute value method, Mathf.Abs(), helpful:
         //      https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Mathf.Abs.html
 
-        
+        bool isMovingOnGround = Mathf.Abs(movement) > 0.1f || Mathf.Abs(leftright) > 0.1f;
+
+        bool isFlying = !_orbitMode 
+                    && !_rigidbody.isKinematic 
+                    && Mathf.Abs(_rigidbody.linearVelocity.y) > 0.1f;
+
+        _animator.SetBool("running", isMovingOnGround && !isFlying);
+        _animator.SetBool("flying", isFlying);
         // STEP 4 -------------------------------------------------------------
     }
 
