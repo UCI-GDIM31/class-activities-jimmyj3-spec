@@ -55,6 +55,10 @@ https://canvas.eee.uci.edu/courses/77004/files/32983209?module_item_id=3472865](
 2. Notes before coding: After playing the finished program and plain program, I believe the cat object is already be set and all we need to is coding for bats. I noticed that we have two file for bats. I think I will do most of the coding in BatManager and attach it later in the BatW6. 
 
 
+### W7
+1. My role: physics. [https://docs.google.com/document/d/1RbOJV14KBQmt5sQBiYGuODTakWBMyocLs59OTx8vLRQ/edit?tab=t.0]
+2. In the step 2, the code was wrong because it was using Vector3.forward instead of transform.forward. We use transform because we want the Muskrat to move forward as the direction it is facing, but not an axis direction. 
+
 
 ## Open-Source Assets
 ### W1
